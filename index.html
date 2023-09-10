@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treausure Quest</title>
+    <link rel="icon" type="image/x-icon" href="https://banner2.cleanpng.com/20200229/woc/transparent-treasure-chest-icon-bandit-icon-game-elements-icon-5e5b113d8bed36.2402521215830264935732.jpg"/>
+    <link rel="stylesheet" href="treasurehunt.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="row">
+        <div class="column">
+            <h1>Treasure Quest</h1>
+            <h2>Don't Blow It!</h2>
+            <ul>
+                <li>Click the boxes to reveal what's on the map!</li>
+                <li>If you click on the bomb, you lose!</li>
+                <li>If you click on the treasure, you win!</li>
+            </ul>
+            <img src="https://openclipart.org/image/800px/336904" height="250"/>
+        </div>
+        <div class="column">
+            <h3 id="counter">0</h3>
+                <div id="gameboard">
+                    <table border="2">
+                        <tr>
+                            <td onclick="treasure(0); pirate()" id="0">🏴‍☠️</td>
+                            <td onclick="treasure(1); pirate()" id="1">🏴‍☠️</td>
+                            <td onclick="treasure(2); pirate()" id="2">🏴‍☠️</td>
+                            <td onclick="treasure(3); pirate()" id="3">🏴‍☠️</td>
+                            <td onclick="treasure(4); pirate()" id="4">🏴‍☠️</td>
+                        </tr>
+                        <tr>
+                            <td onclick="treasure(5); pirate()" id="5">🏴‍☠️</td>
+                            <td onclick="treasure(6); pirate()" id="6">🏴‍☠️</td>
+                            <td onclick="treasure(7); pirate()" id="7">🏴‍☠️</td>
+                            <td onclick="treasure(8); pirate()" id="8">🏴‍☠️</td>
+                            <td onclick="treasure(9); pirate()" id="9">🏴‍☠️</td>
+                        </tr>
+                        <tr>
+                            <td onclick="treasure(10); pirate()" id="10">🏴‍☠️</td>
+                            <td onclick="treasure(11); pirate()" id="11">🏴‍☠️</td>
+                            <td onclick="treasure(12); pirate()" id="12">🏴‍☠️</td>
+                            <td onclick="treasure(13); pirate()" id="13">🏴‍☠️</td>
+                            <td onclick="treasure(14); pirate()" id="14">🏴‍☠️</td>
+                        </tr>
+                        <tr>
+                            <td onclick="treasure(15); pirate()" id="15">🏴‍☠️</td>
+                            <td onclick="treasure(16); pirate()" id="16">🏴‍☠️</td>
+                            <td onclick="treasure(17); pirate()" id="17">🏴‍☠️</td>
+                            <td onclick="treasure(18); pirate()" id="18">🏴‍☠️</td>
+                            <td onclick="treasure(19); pirate()" id="19">🏴‍☠️</td>
+                        </tr>
+                        <tr>
+                            <td onclick="treasure(20); pirate()" id="20">🏴‍☠️</td>
+                            <td onclick="treasure(21); pirate()" id="21">🏴‍☠️</td>
+                            <td onclick="treasure(22); pirate()" id="22">🏴‍☠️</td>
+                            <td onclick="treasure(23); pirate()" id="23">🏴‍☠️</td>
+                            <td onclick="treasure(24); pirate()" id="24">🏴‍☠️</td>
+                        </tr>
+                    </table>
+                </div>
+            <button type="button" onclick = "location.reload()">Retry</button>
+        </div>
+    </div>
+    <footer>&copy; Corey & Emma
+        <a href="https://github.com/LEARNAcademy/jumpstart-student-notes" target="_blank">Jumpstart</a>
+    </footer>
+    <script type = "text/javascript" src="treasurehunt.js"></script>
+</body>
+</html>

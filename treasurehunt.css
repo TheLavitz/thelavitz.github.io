@@ -1,0 +1,54 @@
+body {
+    background-image: url(https://www.publicdomainpictures.net/pictures/320000/nahled/tropical-island-1584356446QnQ.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size: clamp(12px, calc(20px + (20 - 12) * ((100vw - 300px) / (1600 - 300))), 40px);
+    /* text-align: center; */
+    background-color: sandybrown;
+    font-family: 'Caveat', cursive;
+}
+ul {
+    list-style-type: none;
+    font-size: 30px;
+}
+h1 {
+    font-size: 70px;
+        color: rgb(67, 59, 107);
+    font-family: 'Dancing Script', cursive;
+}
+table {
+    table-layout: fixed;
+    width: 50%;
+    border-collapse: collapse;
+    font-size: 60px;
+}
+#gameboard {
+    display:flex;
+    justify-content: center;
+}
+footer{
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 60px;   /* Height of the footer */
+}
+button{
+    position: relative;
+    top: 100px;
+    width: 10%;
+    margin: auto;
+    font-size: 20px;
+    border-radius: 12px;
+}
+.row {
+    display: flex;
+  }
+  
+  .column {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
